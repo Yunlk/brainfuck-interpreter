@@ -73,7 +73,8 @@ void brain_file_in()
 {
 	string tep;
 	ifstream file("code.bf");
-	if (!file.is_open()) {
+	if (!file.is_open()) 
+	{
 		cerr << "ERROR: I CAN'T OPEN FILE code.bf! PLS TRY READ BY CIN!" << endl;
 		flag = 2;
 	}
@@ -141,4 +142,5 @@ int main()
 	}
 	brain_GO();
 	return 0;
+
 }
