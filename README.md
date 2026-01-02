@@ -2,9 +2,7 @@
 
 ### 这是什么？
 
-这是
-
-<iframe sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals allow-popups" src="https://zh.wikipedia.org/wiki/Brainfuck" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="pointer-events: none;"></iframe>
+`[是](https://github.com/Yunlk/brainfuck-interpreter)`
 
 ### 如何实现的？
 
