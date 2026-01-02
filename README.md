@@ -2,7 +2,7 @@
 
 ### 这是什么？
 
-`[是](https://github.com/Yunlk/brainfuck-interpreter)`
+[是](https://github.com/Yunlk/brainfuck-interpreter)
 
 ### 如何实现的？
 
