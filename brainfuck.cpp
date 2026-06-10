@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <vector>
 #include <stack>
 #include <string>
@@ -35,7 +35,7 @@ void brain_L()
 void brain_out()
 {cout << (char)*p;}
 void brain_in()
-{cin >> *p;}
+{*p = cin.get();}
 vector<ll> brain_find_LOOP(const string& code)
 {
 	vector<ll> where(code.size(), -1);
