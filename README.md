@@ -26,9 +26,11 @@ void brain_diff()
 void brain_R()
 {
 	p++;
-	if (p >= &memory[0] + MEMORY_SIZE)//防止越界
+	if (p >= &memory[0] + MEMORY_SIZE)
+	{
 		cout << "ERROR:U MOVE P TOOOO RIGHT AT ADDRESS:" << p << endl;
-	flag = 1;
+		flag = 1;
+	}
 }
 ```
 
@@ -38,9 +40,11 @@ void brain_R()
 void brain_L()
 {
 	p--;
-	if (p < &memory[0])//防止越界
+	if (p < &memory[0])
+	{
 		cout << "ERROR:U MOVE P TOOOO LEFT AT ADDRESS:" << p << endl;
-	flag = 1;
+		flag = 1;
+	}
 }
 ```
 
